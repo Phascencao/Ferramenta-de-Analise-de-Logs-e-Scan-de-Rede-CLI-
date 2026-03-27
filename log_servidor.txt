@@ -1,0 +1,50 @@
+[INFO] Iniciando sequência de boot do sistema.
+[INFO] Carregando kernel Linux versão 5.15.0-generic.
+[INFO] Montando sistemas de arquivos virtuais.
+[INFO] Iniciando o gerenciador de dispositivos (udev).
+[INFO] Interface loopback (lo) configurada com IP 127.0.0.1.
+[INFO] Interface de rede eth0 configurada via DHCP.
+[INFO] Endereço IP 192.168.0.10 atribuído à eth0.
+[INFO] Iniciando serviço de log do sistema (rsyslog).
+[INFO] Iniciando serviço de agendamento de tarefas (cron).
+[INFO] Serviço de firewall (ufw) ativado.
+[ALERTA] Regra de firewall padrão configurada para 'deny' em portas de entrada.
+[INFO] Iniciando daemon do SSH (sshd) na porta 22.
+[INFO] Sistema iniciado com sucesso.
+[INFO] Servidor web Apache iniciado na porta 80.
+[INFO] Servidor web Apache iniciado na porta 443 (SSL/TLS).
+[INFO] Conexão estabelecida com o banco de dados MySQL local.
+[INFO] Sincronização de horário NTP (Network Time Protocol) concluída.
+[ALERTA] Uso de CPU em 85%.
+[INFO] Limpeza de cache de pacotes apt concluída.
+[INFO] Verificando atualizações de segurança...
+[INFO] Nenhuma atualização crítica de segurança encontrada.
+[INFO] Serviço de monitoramento (Zabbix agent) iniciado.
+[INFO] Conexão de rede estabilizada, latência média 12ms.
+[ERRO] Falha de login do IP 10.0.0.5 na porta 22.
+[INFO] Nova sessão SSH aberta pelo usuário 'admin' a partir de 192.168.0.50.
+[INFO] Executando script de manutenção diária.
+[INFO] Rotação de logs (/var/log/syslog) concluída.
+[ALERTA] Uso de memória RAM excedeu 70%.
+[INFO] Processo de compactação de logs antigos iniciado.
+[INFO] Serviço de email (Postfix) iniciado na porta 25.
+[INFO] Fila de emails processada (0 mensagens pendentes).
+[INFO] Atualizando listas de bloqueio de IP no firewall.
+[ALERTA] Tráfego suspeito bloqueado pelo firewall na porta 443. Origem: IP 172.16.5.10.
+[INFO] Serviço de banco de dados rodando há 24 horas sem interrupções.
+[INFO] Iniciando verificação de integridade de arquivos do sistema (AIDE).
+[INFO] Verificação de integridade concluída com sucesso. Nenhuma alteração não autorizada.
+[ERRO] Falha de login do IP 192.168.0.15 na porta 22.
+[ALERTA] Múltiplas tentativas de conexão falhas registradas no log do SSH.
+[INFO] Serviço Fail2Ban monitorando logs do SSH.
+[INFO] Iniciando processo de backup diário do banco de dados.
+[INFO] Dump do banco de dados concluído. Tamanho: 450MB.
+[INFO] Compactando arquivo de backup...
+[INFO] Backup compactado com sucesso. Novo tamanho: 120MB.
+[INFO] Enviando backup para servidor de armazenamento remoto.
+[INFO] Transferência de backup concluída (velocidade média 15MB/s).
+[INFO] Processo de backup diário finalizado com sucesso.
+[ALERTA] Espaço livre em disco na partição (/) está abaixo de 10GB.
+[INFO] Executando limpeza automática de arquivos temporários (/tmp).
+[INFO] Limpeza concluída, 1.2GB liberados na partição (/).
+[INFO] Escaneamento de rotina do antivírus (ClamAV) finalizado.
