@@ -16,5 +16,5 @@ Uma ferramenta de interface de linha de comando (CLI) desenvolvida em Python par
    - Utiliza Regex para extrair automaticamente o endereço IP de origem do possível atacante, gerando um alerta de segurança imediato.
 
 ## 🕹️ Como Executar
-1. **Para rodar o Scanner de Rede:** python ferramenta.py --ip <IP_DO_ALVO> ex:127.0.0.1
-2. **Para rodar o Analisador de Logs de Segurança:** python ferramenta.py --log <CAMINHO_DO_ARQUIVO> ex:log_servidor.txt
+1. **Para rodar o Scanner de Rede:** python -m src.ferramenta --ip <IP_DO_ALVO> ex:127.0.0.1
+2. **Para rodar o Analisador de Logs de Segurança:** python -m src.ferramenta --log <CAMINHO_DO_ARQUIVO> ex:log_servidor.txt
