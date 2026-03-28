@@ -1,6 +1,6 @@
 import argparse
-import leitor
-import scanner
+from src import leitor
+from src import scanner
 
 parser = argparse.ArgumentParser(description='Ferramenta de Análise de Logs e Scan de Rede')
 

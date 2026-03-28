@@ -2,7 +2,7 @@ import socket
 
 
 def scanner_ip(ip_alvo):
-    portas_alvo = [21, 22, 80, 443, 8080]
+    portas_alvo = [20, 21, 22, 23, 25, 53, 80, 110, 443, 8080]
 
     for porta in portas_alvo:
 

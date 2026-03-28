@@ -1,0 +1,22 @@
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# PyCharm / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs gerados localmente (mantém só o sample)
+*.log
